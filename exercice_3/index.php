@@ -13,7 +13,7 @@ $monthsArray = array(
     'novembre',
     'décembre'
 );
-print_r($monthsArray);
+
 ?>
 <!DOCTYPE HTML>
 <html lang="fr">
@@ -21,28 +21,13 @@ print_r($monthsArray);
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />  
         <link rel="stylesheet" href="style.css" />
-        <title>exercice_1 partie 5-php</title>  
+        <title>exercice_3 partie 5-php</title>  
     </head>
 
     <body>
-        <h1>exercice_1 partie 5 php</h1>
-        <p>créer un tableau months et l'initialiser avec les valeurs suivantes :
-
-            janvier
-            février
-            mars
-            avril
-            mai
-            juin
-            juillet
-            aout
-            septembre
-            octobre
-            novembre
-            décembre
-
-        </p>
-        <p></p>
+        <h1>exercice_3 partie 5 php</h1>
+        <p>Avec le tableau de l'exercice , afficher la valeur de l'index 5.</p>
+        <p><?= $monthsArray [5]; ?></p>
 
 
     </body>
